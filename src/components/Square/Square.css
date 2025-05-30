@@ -1,0 +1,27 @@
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 3rem;
+  font-weight: bold;
+  border: 2px solid #444;
+  background: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+.winner-x {
+  background-color: #ffcccc;
+  color: #a70000;
+  font-weight: 900;
+}
+
+.winner-o {
+  background-color: #ccffcc;
+  color: #006400;
+  font-weight: 900;
+}
